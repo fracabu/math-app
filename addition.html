@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addizione - Math Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Addizione</h1>
+        <p>Scegli un livello di difficoltà per iniziare:</p>
+        <div class="card-container">
+            <div class="card" onclick="startExercise('facile')">
+                <h2>Facile</h2>
+                <p>Esercizi di addizione semplici</p>
+            </div>
+            <div class="card" onclick="startExercise('intermedio')">
+                <h2>Intermedio</h2>
+                <p>Esercizi di addizione di media difficoltà</p>
+            </div>
+            <div class="card" onclick="startExercise('difficile')">
+                <h2>Difficile</h2>
+                <p>Esercizi di addizione complessi</p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
