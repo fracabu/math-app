@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sottrazione - Math Game</title>
+    <title>Moltiplicazione - Math Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,26 +13,31 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="addition.html">Addizione</a></li>
                 <li><a href="subtraction.html">Sottrazione</a></li>
-                <li><a href="multiplication.html">Moltiplicazione</a></li>
+                <li><a href="multiplication.html" class="active">Moltiplicazione</a></li>
                 <li><a href="division.html">Divisione</a></li>
             </ul>
         </nav>
     </header>
     <div class="container">
-        <h1>Sottrazione</h1>
-        <p>Scegli un livello di difficoltà per iniziare:</p>
-        <div class="card-container">
-            <div class="card" onclick="startExercise('facile', 'sottrazione')">
-                <h2>Facile</h2>
-                <p>Esercizi di sottrazione semplici</p>
-            </div>
-            <div class="card" onclick="startExercise('intermedio', 'sottrazione')">
-                <h2>Intermedio</h2>
-                <p>Esercizi di sottrazione di media difficoltà</p>
-            </div>
-            <div class="card" onclick="startExercise('difficile', 'sottrazione')">
-                <h2>Difficile</h2>
-                <p>Esercizi di sottrazione complessi</p>
+        <h1>Moltiplicazione 🎯</h1>
+        <div class="level-selection" id="levelSelection">
+            <p>Scegli un livello di difficoltà per iniziare:</p>
+            <div class="card-container">
+                <div class="card" onclick="startExercise('facile', 'moltiplicazione')">
+                    <span class="level-icon">😊</span>
+                    <h2>Facile</h2>
+                    <p>Tabelline fino al 5</p>
+                </div>
+                <div class="card" onclick="startExercise('intermedio', 'moltiplicazione')">
+                    <span class="level-icon">🤔</span>
+                    <h2>Intermedio</h2>
+                    <p>Tabelline fino al 10</p>
+                </div>
+                <div class="card" onclick="startExercise('difficile', 'moltiplicazione')">
+                    <span class="level-icon">🧐</span>
+                    <h2>Difficile</h2>
+                    <p>Numeri fino al 12</p>
+                </div>
             </div>
         </div>
     </div>

@@ -3,37 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Addizione - Math Game</title>
+    <title>Math Game - Impara la matematica divertendoti!</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="addition.html">Addizione</a></li>
-                <li><a href="subtraction.html">Sottrazione</a></li>
-                <li><a href="multiplication.html">Moltiplicazione</a></li>
-                <li><a href="division.html">Divisione</a></li>
-            </ul>
-        </nav>
-    </header>
-    <div class="container">
-        <h1>Addizione</h1>
-        <p>Scegli un livello di difficoltà per iniziare:</p>
-        <div class="card-container">
-            <div class="card" onclick="startExercise('facile', 'addizione')">
-                <h2>Facile</h2>
-                <p>Esercizi di addizione semplici</p>
-            </div>
-            <div class="card" onclick="startExercise('intermedio', 'addizione')">
-                <h2>Intermedio</h2>
-                <p>Esercizi di addizione di media difficoltà</p>
-            </div>
-            <div class="card" onclick="startExercise('difficile', 'addizione')">
-                <h2>Difficile</h2>
-                <p>Esercizi di addizione complessi</p>
-            </div>
+<body class="home-page">
+    <div class="hero-container">
+        <div class="hero-content">
+            <h1 class="hero-title">Math Game</h1>
+            <p class="hero-text">Impara la matematica divertendoti con esercizi interattivi!</p>
+            <button onclick="window.location.href='exercises.html'" class="start-button">
+                Cominciamo! 🚀
+            </button>
         </div>
     </div>
     <script src="app.js"></script>
